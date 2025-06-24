@@ -11,5 +11,6 @@ export default defineConfig({
   preview: {
     port: 10000,
     host: true,
+    allowedHosts: ['ignite-dt-money.onrender.com', 'localhost'],
   },
 });
